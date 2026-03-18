@@ -10,10 +10,10 @@ img{
     width: 500px;/*Set a specific width for the image */
 }
 nav{
-    button {
-        background-color: #f00505;/*Set text color for buttons */
-    }
+        background-color: rgba(255, 255, 255, 0.8);/*Add a semi-transparent background to the navigation bar */
         padding: 10px;/*Add padding for better spacing */
+        border-radius: 5px;/*Round the corners of the navigation bar */
+        margin-bottom: 20px;/*Add space below the navigation bar */ 
     text-align: center;/*Center align the navigation links */
 }
 .content{
