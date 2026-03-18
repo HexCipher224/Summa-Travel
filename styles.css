@@ -1,6 +1,6 @@
 h1{
     font-family: 'Georgia', serif;/*Use serif font for classic look */
-    font-size: 7em;/*Increase font size for better readability */
+    font-size: 2em;/*Increase font size for better readability */
     text-align: center;/*Center align the heading */
 }
 img{
@@ -15,6 +15,13 @@ nav{
     }
         padding: 10px;/*Add padding for better spacing */
     text-align: center;/*Center align the navigation links */
+}
+.content{
+    h2{
+        font-size: 2em;/*Increase font size for better readability */
+        color: #0000ff;/*Set text color for subheadings */
+        text-align: center;/*Center align the subheadings */
+    }
 }
 * {
     margin: 15px;
