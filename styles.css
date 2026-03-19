@@ -1,8 +1,8 @@
-h1{
+.hero-title h1{
     font-family: 'Georgia', serif;/*Use serif font for classic look */
     font-size: xx-large;/*Increase font size for better readability */
     text-align: center;/*Center align the heading*/
-    color: black;
+    color: rgb(12, 12, 12);
 }
 .navbar{
         display: flex;
