@@ -9,7 +9,9 @@ img{
     margin: 0 auto;/*Center the image horizontally */
     width: 500px;/*Set a specific width for the image */
 }
-nav{
+.navbar{
+        display: flex;
+        align-items: center;
         background-color: rgba(31, 35, 41, 0.8);/*Add a semi-transparent background to the navigation bar */
         padding: 1em;/*Add padding for better spacing */
         border-radius: 12px;/*Round the corners of the navigation bar */
@@ -72,4 +74,8 @@ color: rgb(5, 226, 230);
     align-items: left;
     justify-content: center;
     padding: 20px;
+}
+.nav-links{
+    align-items: horizontal;
+    justify-content: space-between;
 }
