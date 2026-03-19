@@ -88,7 +88,8 @@ color: rgb(5, 226, 230);
     justify-content: center;
     align-items: center;
 }
-.hero-image{
-    align-self: center;
-    border-radius: 12px;
+.logo-container-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
