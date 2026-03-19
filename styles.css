@@ -43,7 +43,8 @@ color: rgb(5, 226, 230);
 .nav-links a {
     color: rgb(112, 41, 3);
     border-radius: 12px;
-    position: relative;
+    display: flex;
+    text-align: center;
 }
 
 .booking-form {
@@ -69,6 +70,7 @@ color: rgb(5, 226, 230);
 }
 .nav-links{
     justify-content: space-between;
+    text-align: center;
 }
 .logo-container{
     display: flex;
@@ -79,4 +81,10 @@ color: rgb(5, 226, 230);
     height: 70px;
     object-fit: contain;
     border-radius: 12px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
