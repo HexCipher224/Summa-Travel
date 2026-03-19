@@ -88,6 +88,11 @@ color: rgb(5, 226, 230);
     justify-content: center;
     align-items: center;
 }
+.flex-container h3{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
 .logo-container-a{
     display: flex;
     flex-direction: row;
