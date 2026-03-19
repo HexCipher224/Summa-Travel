@@ -10,11 +10,10 @@ img{
     width: 500px;/*Set a specific width for the image */
 }
 nav{
-        background-color: rgba(97, 150, 224, 0.8);/*Add a semi-transparent background to the navigation bar */
+        background-color: rgba(31, 35, 41, 0.8);/*Add a semi-transparent background to the navigation bar */
         padding: 1em;/*Add padding for better spacing */
-        border-radius: 2px;/*Round the corners of the navigation bar */
-        margin-bottom: 10px;/*Add space below the navigation bar */ 
-
+        border-radius: 12px;/*Round the corners of the navigation bar */
+        margin-bottom: 10px;/*Add space below the navigation bar */
 }
 .content{
     h2{
