@@ -104,3 +104,8 @@ color: rgb(5, 226, 230);
     justify-content: flex-end;
     float: left;
 }
+.hero-img{
+    display: flex;
+    justify-content: center;
+
+}
