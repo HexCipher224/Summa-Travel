@@ -91,7 +91,8 @@ color: rgb(5, 226, 230);
 .flex-container h3{
     color: blue;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: larger;
 }
 .flex-container p{
