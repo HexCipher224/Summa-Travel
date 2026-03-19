@@ -1,28 +1,20 @@
 h1{
     font-family: 'Georgia', serif;/*Use serif font for classic look */
     font-size: 2em;/*Increase font size for better readability */
-    text-align: center;/*Center align the heading */
-}
-img{
-    border: 3px solid rgb(134, 153, 218);/*Add a border to the image */
-    display: block;/* Removes the bottom margine if its inside inline content*/
-    margin: 0 auto;/*Center the image horizontally */
-    width: 500px;/*Set a specific width for the image */
+    text-align: center;/*Center align the heading*/
 }
 .navbar{
         display: flex;
         align-items: center;
         background-color: rgba(31, 35, 41, 0.8);/*Add a semi-transparent background to the navigation bar */
         padding: 1em;/*Add padding for better spacing */
-        border-radius: 12px;/*Round the corners of the navigation bar */
+        border-radius: 16px;/*Round the corners of the navigation bar */
         margin-bottom: 10px;/*Add space below the navigation bar */
 }
-.content{
-    h2{
+.content h2{
         font-size: 2em;/*Increase font size for better readability */
         color: #e5f7f7; /*Set text color for subheadings */
         text-align: center;/*center align the subheadings */
-    }
 }
 * {
     margin: 15px;
@@ -77,4 +69,14 @@ color: rgb(5, 226, 230);
 }
 .nav-links{
     justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 12px;
 }
